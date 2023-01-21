@@ -1,0 +1,9 @@
+#include <io.h>
+#include <glcd.h>
+#include <font5x7.h>
+#include <delay.h>
+#include <stdio.h>
+#include <string.h>
+#include <display.h>
+void dis_alpha(void);
+void dis_num(void);

@@ -1,0 +1,89 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+_empty                                                                            0x0260       8
+and                                                                               0x0268       8
+_dollor                                                                           0x0270       8
+_Ad                                                                               0x0278       8
+star                                                                              0x0280       8
+_per                                                                              0x0288       8
+_power                                                                            0x0290       8
+_dot                                                                              0x0298       8
+_comma                                                                            0x02A0       8
+_Square                                                                           0x02A8       8
+A                                                                                 0x02B0       8
+B                                                                                 0x02B8       8
+C                                                                                 0x02C0       8
+D                                                                                 0x02C8       8
+E                                                                                 0x02D0       8
+F                                                                                 0x02D8       8
+G                                                                                 0x02E0       8
+H                                                                                 0x02E8       8
+_I                                                                                0x02F0       8
+_J                                                                                0x02F8       8
+K                                                                                 0x0300       8
+L                                                                                 0x0308       8
+M                                                                                 0x0310       8
+N                                                                                 0x0318       8
+O                                                                                 0x0320       8
+P                                                                                 0x0328       8
+Q                                                                                 0x0330       8
+R                                                                                 0x0338       8
+S                                                                                 0x0340       8
+T                                                                                 0x0348       8
+U                                                                                 0x0350       8
+V                                                                                 0x0358       8
+W                                                                                 0x0360       8
+X                                                                                 0x0368       8
+Y                                                                                 0x0370       8
+Z                                                                                 0x0378       8
+_0                                                                                0x0380       8
+_1                                                                                0x0388       8
+_2                                                                                0x0390       8
+_3                                                                                0x0398       8
+_4                                                                                0x03A0       8
+_5                                                                                0x03A8       8
+_6                                                                                0x03B0       8
+_7                                                                                0x03B8       8
+_8                                                                                0x03C0       8
+_9                                                                                0x03C8       8
+contin                                                                            0x03D0       1
+mul                                                                               0x03D1       1
+receive                                                                           0x03D2       1
+finish                                                                            0x03D3       1
+cnt                                                                               0x03D4       1
+flag                                                                              0x03D5       1
+dis                                                                               0x03D6       4
+show                                                                              0x03DA     256
+show1                                                                             0x04DA     256
+done                                                                              0x05DA       1
+j                                                                                 0x05DB       1
+sh_cnt                                                                            0x05DC       1
+sh1_cnt                                                                           0x05DD       1
+sh2_cnt                                                                           0x05DE       1
+rr                                                                                0x05DF       4
+_seed                                                                             0x05E3       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+Rx_Display                                                                        R4,R5        2
+Display1                                                                          R6,R7        2
+Display2                                                                          R8,R9        2
+Display3                                                                          R10,R11      2
+Display4                                                                          R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+Search_dis                                                                        0x001AB    330
+ID                                                                                0x002F5      3
+usart_rx_isr                                                                      0x002F8    227
+WELL_COME                                                                         0x003DB    275
+main                                                                              0x004EE    290
+display                                                                           0x00610     44
+memset                                                                            0x0063C     16
